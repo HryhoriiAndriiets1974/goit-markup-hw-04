@@ -229,8 +229,8 @@ header .logo {
   background: var(--bg-team);
 }
 .item-icon {
-  display: inline-flex;
-  margin-top: 35px;
+  display: inline-block;
+  margin-top: 50px;
 }
 /* Чим ми займаэмось -------------------------*/
 .doing {
