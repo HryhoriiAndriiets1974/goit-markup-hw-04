@@ -354,25 +354,30 @@ header .logo {
   height: 44px;
   /* display: flex; */
   /* border: 1px solid #afb1b8; */
-  /* box-sizing: border-box; */
   border-radius: 50%;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   margin-bottom: 30px;
-  background: var(--accent-color);
-
+  background: var(--for-black-color);
+  margin-right: 10px;
 }
+/* .btn-soc:last-child {
+  margin-right: 0;
+} */
+/* .btn-soc:first-child {
+  margin-left: 0;
+} */
 .soc-icon {
   width: 44px;
   height: 44px;
-  margin-top: 10px;
+  margin-top: 12px;
+  margin-left: 12px;
   /* border: 1px solid #afb1b8; */
-  display: inline-flex
-  /* box-sizing: border-box; */
-  background-size: contain;
+  display: inline-block;
+  box-sizing: border-box;
+  /* background-size: contain; */
   justify-content: center;
   align-items: center;
 }
-
 
 /* Постійні клієнти --------------------------*/
 .clients {
@@ -432,4 +437,14 @@ header .logo {
 .footer-contact .mailto,
 .footer-contact .tel {
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-social {
+  width: 206px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-transform: uppercase;
+  color: var(--for-black-color);
+  background-position: 516px 70px;
 }
