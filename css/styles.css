@@ -218,16 +218,19 @@ header .logo {
   line-height: 1.714;
 }
 .btn-item {
-  width: 270px;
-  height: 120px;
+  /* width: 270px;
+  height: 120px; */
   padding: 0;
   margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   background: var(--bg-team);
 }
-.btn-icon {
-  justify-content: center;
-  align-items: center;
+.item-icon {
+  display: inline-flex;
+  margin-top: 35px;
 }
 /* Чим ми займаэмось -------------------------*/
 .doing {
@@ -340,6 +343,7 @@ header .logo {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
+  align-items: center;
 }
 .social-link {
   padding: 0;
@@ -348,15 +352,28 @@ header .logo {
 .btn-soc {
   width: 44px;
   height: 44px;
+  /* display: flex; */
   /* border: 1px solid #afb1b8; */
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   border-radius: 50%;
   margin-left: 10px;
+  margin-bottom: 30px;
+  background: var(--accent-color);
+
 }
 .soc-icon {
+  width: 44px;
+  height: 44px;
+  margin-top: 10px;
   /* border: 1px solid #afb1b8; */
-  box-sizing: border-box;
+  display: inline-flex
+  /* box-sizing: border-box; */
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
 }
+
+
 /* Постійні клієнти --------------------------*/
 .clients {
   padding: 0;
