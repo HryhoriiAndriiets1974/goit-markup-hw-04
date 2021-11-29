@@ -336,7 +336,7 @@ header .logo {
   font-size: 16px;
   line-height: 1.1875;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 /* Соціальні мережі --------------------------*/
 .social {
@@ -344,6 +344,7 @@ header .logo {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .social-link {
   padding: 0;
@@ -355,30 +356,31 @@ header .logo {
   /* display: flex; */
   /* border: 1px solid #afb1b8; */
   border-radius: 50%;
-  /* margin-left: 10px; */
   margin-bottom: 30px;
-  background: var(--for-black-color);
-  margin-right: 10px;
+  background: var(--accent-color);
+  padding-bottom: 19px;
 }
-/* .btn-soc:last-child {
-  margin-right: 0;
-} */
-/* .btn-soc:first-child {
-  margin-left: 0;
-} */
+
 .soc-icon {
   width: 44px;
   height: 44px;
-  margin-top: 12px;
-  margin-left: 12px;
-  /* border: 1px solid #afb1b8; */
-  display: inline-block;
-  box-sizing: border-box;
-  /* background-size: contain; */
+  /* margin-top: 12px;
+  margin-left: 12px; */
+  border: 1px solid #afb1b8;
+  background: var(--accent-color);
+  display: flex;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 10px 10px;
   justify-content: center;
   align-items: center;
 }
-
+/* .soc-icon:nth-child(4) {
+  margin-right: 0;
+} */
+/* .soc-icon:last-child {
+  margin-right: 0;
+} */
 /* Постійні клієнти --------------------------*/
 .clients {
   padding: 0;
@@ -446,5 +448,5 @@ header .logo {
   margin-top: 20px;
   text-transform: uppercase;
   color: var(--for-black-color);
-  background-position: 516px 70px;
+  background-position: 800px 70px;
 }
