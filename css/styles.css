@@ -97,16 +97,21 @@ header .logo {
   font-family: Roboto;
   color: var(--primary-text-color);
   margin-right: 50px;
-  display: inline-block;
+  display: block;
   padding: 30.5px 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
   cursor: pointer;
+  align-items: center;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+.auth-img {
+  margin-right: 10px;
 }
 /* Герой -------------------------------------*/
 .hero {
@@ -387,6 +392,11 @@ header .logo {
 /* .soc-icon:last-child {
   margin-right: 0;
 } */
+/* .soc-icon > use {
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+} */
 /* Постійні клієнти --------------------------*/
 .clients {
   padding: 0;
@@ -403,9 +413,6 @@ header .logo {
   margin: 0;
 }
 .client {
-  /* width: 170px;
-  height: 92px;
-  border: 1px solid #2196f3; */
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -413,6 +420,7 @@ header .logo {
   padding: 0;
   border: none;
   background: var(--for-black-color);
+  fill: #afb1b8;
 }
 .btn-icon {
   width: 170px;
@@ -420,6 +428,13 @@ header .logo {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+}
+/* .btn-client:focus,
+.btn-client:hover, */
+.btn-icon:hover,
+.btn-icon:focus {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
 }
 /* Підвал ------------------------------------*/
 .page-footer {
