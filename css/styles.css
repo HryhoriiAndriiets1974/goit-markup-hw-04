@@ -121,7 +121,14 @@ header .logo {
   /* outline: 1px solid red; */
   text-align: center;
   padding: 200px 0;
+  /* -------------------------------------- */
+  /* max-width: 1600px;
+  /* height: 600px; */
+  /* margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right rgba(47, 48, 58, 0.4)), url(../images/new-foto.jpg); */
 }
+
 .hero-title {
   color: var(--for-black-color);
   font-weight: 900;
@@ -377,10 +384,10 @@ header .logo {
   height: 44px;
   /* margin-top: 12px;
   margin-left: 12px; */
-  border: 1px solid #afb1b8;
-  background: var(--accent-color);
+  /* border: 1px solid #afb1b8; */
+  background: var(--for-black-color);
   display: flex;
-  border-radius: 50%;
+  border-radius: 47%;
   margin-right: 10px;
   padding: 10px 10px;
   justify-content: center;
@@ -397,6 +404,13 @@ header .logo {
   justify-content: center;
   align-items: center;
 } */
+.soc-icon:focus,
+.soc-icon:hover {
+  background: var(--accent-color);
+}
+.connect {
+  background: rgba(255, 255, 255, 0.1);
+}
 /* Постійні клієнти --------------------------*/
 .clients {
   padding: 0;
