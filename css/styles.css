@@ -232,8 +232,8 @@ header .logo {
   line-height: 1.714;
 }
 .btn-item {
-  /* width: 270px;
-  height: 120px; */
+  width: 270px;
+  height: 120px;
   padding: 0;
   margin-bottom: 30px;
   display: flex;
@@ -242,10 +242,14 @@ header .logo {
   border: none;
   background: var(--bg-team);
 }
+
 .item-icon {
-  display: inline-block;
-  margin-top: 50px;
+  /* display: flex;
+  */
+  padding-top: 30px;
+  padding-left: 100px;
 }
+
 /* Чим ми займаэмось -------------------------*/
 .doing {
   /* outline: 1px solid blue; */
@@ -305,10 +309,12 @@ header .logo {
   font-size: 18px;
   line-height: 2;
   margin-top: 20px;
+  padding-left: 24px;
 }
 .work-list .text {
   margin-top: 4px;
   margin-bottom: 20px;
+  padding-left: 24px;
 }
 .work-list .col {
   color: var(--primary-text-color);
