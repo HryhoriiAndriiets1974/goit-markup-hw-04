@@ -404,7 +404,9 @@ header .logo {
   padding: 10px 10px;
   justify-content: center;
   align-items: center;
+  fill: #afb1b8;
 }
+/* fill="#afb1b8" style="fill: var(--color4, #afb1b8)" */
 /* .soc-icon:nth-child(4) {
   margin-right: 0;
 } */
@@ -419,6 +421,7 @@ header .logo {
 .soc-icon:focus,
 .soc-icon:hover {
   background: var(--accent-color);
+  fill: #fff;
 }
 .connect {
   background: rgba(255, 255, 255, 0.1);
