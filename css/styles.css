@@ -97,7 +97,8 @@ header .logo {
   font-family: Roboto;
   color: var(--primary-text-color);
   margin-right: 50px;
-  display: block;
+  /* ---------was in the past----block- Error #1---- */
+  display: flex;
   padding: 30.5px 0;
   font-weight: 500;
   font-size: 14px;
@@ -116,14 +117,19 @@ header .logo {
 /* Герой -------------------------------------*/
 .hero {
   /* background: #2f303a; */
-  background: rgba(47, 48, 58, 0.4);
-  background-image: url(../images/new-foto.jpg);
-  /* outline: 1px solid red; */
+  /* background: rgba(47, 48, 58, 0.4);
+  background-image: url(../images/new-foto.jpg); */
   text-align: center;
   padding: 200px 0;
-  /* -------------------------------------- */
+  /* outline: 1px solid red; */
+
+  /* ------------------------------------- Error #2---- */
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
+    url(../images/new-foto.jpg);
+  /* background-image: linear-gradient(to right, #f44336 15%, #09792b 40%, #00b9ff 65%, #ffb800); */
   /* max-width: 1600px;
-  /* height: 600px; */
+  height: 600px;
+  display: block; */
   /* margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right rgba(47, 48, 58, 0.4)), url(../images/new-foto.jpg); */
