@@ -116,9 +116,6 @@ header .logo {
 }
 /* Герой -------------------------------------*/
 .hero {
-  /* background: #2f303a; */
-  /* background: rgba(47, 48, 58, 0.4);
-  background-image: url(../images/new-foto.jpg); */
   text-align: center;
   padding: 200px 0;
   /* outline: 1px solid red; */
@@ -126,13 +123,11 @@ header .logo {
   /* ------------------------------------- Error #2---- */
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.3)),
     url(../images/new-foto.jpg);
-  /* background-image: linear-gradient(to right, #f44336 15%, #09792b 40%, #00b9ff 65%, #ffb800); */
-  /* max-width: 1600px;
+  max-width: 1600px;
   height: 600px;
-  display: block; */
-  /* margin-left: auto;
+  display: block;
+  margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to right rgba(47, 48, 58, 0.4)), url(../images/new-foto.jpg); */
 }
 
 .hero-title {
@@ -216,12 +211,12 @@ header .logo {
   list-style: none;
   display: flex;
 }
-.feature-list > .item {
+.feature-list > .feature-item {
   /* outline: 1px solid gold; */
   flex-basis: calc(100% / 4)-30px;
   margin-right: 30px;
 }
-.feature-list .item:last-child {
+.feature-list .feature-item:last-child {
   margin-right: 0;
 }
 .feature-list .title {
@@ -250,10 +245,8 @@ header .logo {
 }
 
 .item-icon {
-  /* display: flex;
-  */
-  padding-top: 30px;
-  padding-left: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 /* Чим ми займаэмось -------------------------*/
