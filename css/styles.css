@@ -256,6 +256,7 @@ header .logo {
   margin: 0;
   list-style: none;
   display: flex;
+  padding-bottom: 94px;
 }
 .doing > .item {
   /* outline: 1px solid gold; */
@@ -328,6 +329,7 @@ header .logo {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding-bottom: 94px;
 }
 .team > .item {
   /* outline: 1px solid gold; */
