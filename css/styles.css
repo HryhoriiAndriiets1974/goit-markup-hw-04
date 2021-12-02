@@ -364,53 +364,51 @@ header .logo {
 /* Соціальні мережі --------------------------*/
 .social {
   display: flex;
-  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
+  /* flex-basis: calc(100% / 4)-10px; */
 }
 .social-link {
-  padding: 0;
-  border: none;
+  /* padding: 0;
+  border: none; */
+
+  /* width: 44px;
+  height: 44px; */
+  /* justify-content: center;
+  align-items: center; */
 }
 .btn-soc {
-  width: 44px;
+  /* width: 44px;
   height: 44px;
   /* display: flex; */
   /* border: 1px solid #afb1b8; */
-  border-radius: 50%;
+  /* border-radius: 50%;
   margin-bottom: 30px;
   background: var(--accent-color);
-  padding-bottom: 19px;
+  padding-bottom: 19px; */
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .soc-icon {
-  width: 44px;
+  width: 20px;
+  height: 20px;
+  /* width: 44px;
   height: 44px;
-  /* margin-top: 12px;
-  margin-left: 12px; */
   /* border: 1px solid #afb1b8; */
-  background: var(--for-black-color);
+  /* background: var(--for-black-color);
   display: flex;
   border-radius: 47%;
   margin-right: 10px;
   padding: 10px 10px;
   justify-content: center;
   align-items: center;
-  fill: #afb1b8;
+  fill: #afb1b8;  */
 }
-/* fill="#afb1b8" style="fill: var(--color4, #afb1b8)" */
-/* .soc-icon:nth-child(4) {
-  margin-right: 0;
-} */
-/* .soc-icon:last-child {
-  margin-right: 0;
-} */
-/* .soc-icon > use {
-  background-position: center;
-  justify-content: center;
-  align-items: center;
-} */
 .soc-icon:focus,
 .soc-icon:hover {
   background: var(--accent-color);
