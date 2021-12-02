@@ -367,50 +367,30 @@ header .logo {
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  /* flex-basis: calc(100% / 4)-10px; */
 }
 .social-link {
-  /* padding: 0;
-  border: none; */
-
-  /* width: 44px;
-  height: 44px; */
-  /* justify-content: center;
-  align-items: center; */
+  margin-right: 10px;
+}
+.social-link:last-child {
+  margin-right: 0;
 }
 .btn-soc {
-  /* width: 44px;
-  height: 44px;
-  /* display: flex; */
-  /* border: 1px solid #afb1b8; */
-  /* border-radius: 50%;
-  margin-bottom: 30px;
-  background: var(--accent-color);
-  padding-bottom: 19px; */
   width: 44px;
   height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
+  fill: #afb1b8;
 }
-
 .soc-icon {
   width: 20px;
   height: 20px;
-  /* width: 44px;
-  height: 44px;
-  /* border: 1px solid #afb1b8; */
-  /* background: var(--for-black-color);
-  display: flex;
-  border-radius: 47%;
-  margin-right: 10px;
-  padding: 10px 10px;
-  justify-content: center;
-  align-items: center;
-  fill: #afb1b8;  */
 }
 .soc-icon:focus,
-.soc-icon:hover {
+.soc-icon:hover,
+.btn-soc:focus,
+.btn-soc:hover {
   background: var(--accent-color);
   fill: #fff;
 }
