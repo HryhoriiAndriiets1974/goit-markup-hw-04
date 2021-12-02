@@ -245,8 +245,8 @@ header .logo {
 }
 
 .item-icon {
-  width: 70px;
-  height: 70px;
+  /* width: 70px;
+  height: 70px; */
 }
 
 /* Чим ми займаэмось -------------------------*/
@@ -384,8 +384,8 @@ header .logo {
   fill: #afb1b8;
 }
 .soc-icon {
-  width: 20px;
-  height: 20px;
+  /* width: 20px;
+  height: 20px; */
 }
 .soc-icon:focus,
 .soc-icon:hover,
@@ -431,8 +431,8 @@ header .logo {
   fill: #afb1b8;
 }
 .btn-icon {
-  width: 106px;
-  height: 60px;
+  /* width: 106px;
+  height: 60px; */
 }
 .btn-client:focus,
 .btn-client:hover {
